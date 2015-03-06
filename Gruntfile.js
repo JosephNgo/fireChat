@@ -41,7 +41,8 @@ module.exports = function(grunt) {
                     './app/sass/**/*.scss',
                     './app/pages/**/*.html',
                     './app/templates/**/*.html',
-                    'Gruntfile.js'
+                    'Gruntfile.js', 
+                    './app/css/**/*.css'
                 ],
                 tasks: [
                     'clean',
